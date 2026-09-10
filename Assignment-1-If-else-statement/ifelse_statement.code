@@ -1,0 +1,9 @@
+<?php
+$isLoggedIn = true;
+
+if ($isLoggedIn) {
+    echo "Welcome to your account!";
+} else {
+    echo "Please log in first.";
+}
+?>
