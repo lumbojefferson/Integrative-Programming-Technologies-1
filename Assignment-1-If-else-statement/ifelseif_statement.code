@@ -1,0 +1,13 @@
+<?php
+$age = 20;
+
+if ($age < 13) {
+    echo "You are a child.";
+} elseif ($age < 18) {
+    echo "You are a teenager.";
+} elseif ($age < 60) {
+    echo "You are an adult.";
+} else {
+    echo "You are a senior.";
+}
+?>
